@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap');
+:root{
+  --main-color: #15306F;
+  --heading-color: #fff;
+  --sec-subheading-color: rgba(45, 132, 238);
+  --paragraph-color: #391400;
+  --section-heading-color: #391400;
+}
+
+/* Common Css */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, a, span{
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background: linear-gradient(37deg, rgba(21, 48, 111, 1) 0%, rgba(37, 116, 212, 0.8) 30%, rgba(21, 48, 111, 1) 100%);
+}
+
+.custom-btn {
+  padding: 10px 25px !important;
+  background: linear-gradient(254deg, rgba(113, 132, 253, 1) 0%, rgba(63, 122, 240, 1) 20%, rgba(79, 55, 238, 1) 100%);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.main-main {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  z-index: 999;
+}
+
+.main-main .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.main-main .navbar-brand img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.main-main .nav-item {
+  margin-left: 15px; 
+}
+
+.main-main .nav-link {
+  color: #fff;
+}
+
+/* Baner Section */
+
+#banner-section {
+  position: relative;
+  padding: 100px 0px;
+}
+
+.banner-heading h1{
+  font-size: 50px;
+  color: #fff;
+  padding-top: 130px;
+}
+
+.banner-heading h3 {
+  font-size: 28px;
+  color: #fff;
+  padding: 50px 0px;
+}
+
+.banner-button .btn-2 {
+  padding: 10px 2px !important;
+  background: linear-gradient(254deg, rgba(113, 132, 253, 1) 0%, rgba(63, 122, 240, 1) 20%, rgba(79, 55, 238, 1) 100%);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.custom-btn-2 {
+  background: rgba(19, 45, 107, 1);
+  padding: 8px 25px !important;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.banner-animation {
+  padding: 100px;
+}
+
+.banner-bottom h2{
+  color: var(--sec-subheading-color);
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.banner-bottom p {
+  color: #fff;
+  font-size: 22px;
+}
+/* Partner Section */
+#partner-section {
+  padding: 80px 0;
+}
+
+.partner-content, .service-content h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--sec-subheading-color);
+  padding-bottom: 20px;
+}
+
+.partner-content, .service-content h3 {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: var(--section-heading-color);
+}
+
+.partner {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 25px;
+  margin-top: 30px;
+}
+
+.partner-item img{
+  width: 100%;
+}
+
+/* Services Section */
+
+.service-content p {
+  font-size: 18px;
+  color: var(--paragraph-color);
+  padding-right: 90px;
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+.service {
+  margin-top: 20px;
+}
+
+.service li {
+  font-size: 18px;
+  color: var(--paragraph-color);
+  padding: 8px 0;
+  
+}
