@@ -467,3 +467,138 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, a, span{
   border-radius: 10px;
   display: inline-block;
 }
+
+/* Feature Section */
+
+.feature h3,
+.testimonial h3{
+  color: var(--paragraph-color)
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+}
+
+.feature-box {
+  border: 1px solid var(--sec-subheading-color);
+  width: 380px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.16);
+}
+
+.feature-box a {
+  color: var(--sec-subheading-color);
+  margin-top: 20px;
+}
+
+/* FAQ Section */
+
+.faq-section h3{
+  color: var(--section-heading-color);
+  padding-top: 10px;
+}
+
+.faq-section p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+/* Accordion Section */
+
+.accordion-qusetion {
+  color: var(--paragraph-color);
+  font-size: 22px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--section-heading-color) !important;
+  background-color: transparent !important;
+}
+
+.answer {
+  color: var(--paragraph-color);
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.blog-content h3 {
+  color: var(--sec-subheading-color);
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.blog-content small {
+  color: var(--paragraph-color);
+}
+
+.blog-content p {
+  color: var(--paragraph-color);
+  margin-top: 10px;
+  justify-items: center;
+  padding-right: 50px;
+}
+
+#hashigbit-section {
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.hashing-content p {
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.hashing-content img {
+  width: 50%;
+}
+
+.hashing-content p span {
+  display: block;
+  margin-top: 18px;
+  font-size: 16px;
+}
+
+.hashing-email {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+  background-color: #15306F;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.hashing-icon {
+  background-image: url('../image/images/message.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .050;
+  height:350px;
+}
+
+.has {
+  position: relative;
+}
+
+.hashing-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  transform: translate(-50% ,-50%);
+  z-index: 1;
+}
