@@ -602,3 +602,86 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, a, span{
   transform: translate(-50% ,-50%);
   z-index: 1;
 }
+
+/* Web3 Section */
+#web3{
+  margin: 80px 0;
+}
+.web3 {
+  background-color: var(--sec-subheading-color);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.web3-content h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.web3-content p {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: rgba(40, 41, 62, 1);
+  padding-top: 60px;
+}
+
+.parent-company h4 {
+  color: #fff;
+}
+
+.parent-company img {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.parent-company p {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-bootom {
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer-bootom p::before {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #30324f;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.explore h4,
+.footer-Services h4,
+.contact-us h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.explore ul li,
+.footer-Services ul li {
+  padding: 10px 0;
+}
+
+.explore ul li a,
+.footer-Services ul li a{
+  color: #fff;
+}
+
+.contact-us p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.social-icon img {
+  margin: 0 10px;
+}
