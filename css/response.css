@@ -1,0 +1,37 @@
+@media (max-width: 542px) {
+  .partner {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-animation {
+      padding: 0;
+    }
+
+    .security {
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 10px;
+    }
+
+    .item-two,
+    .item-four,
+    .item-six,
+    .item-eight {
+      margin-top: 0px;
+    }
+
+    .feature-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .parent-company {
+      margin-bottom: 30px;
+    }
+
+    .parent-company img {
+      width: 50%;
+    }
+}
